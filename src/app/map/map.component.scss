@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 980px;
+  padding: 1% 2%;
+  margin: 0 auto;
+}
+
+#lat,
+#lon {
+  text-align: right;
+}
+
+.address {
+  cursor: pointer;
+}
+
+.address {
+  color: #aa0000;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  //   gap: 20px;
+  padding: 10px;
+}
+
+.child {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
